@@ -1,0 +1,38 @@
+{
+  "model_name": "voxtral",
+  "model_version": "mini-3b-2507",
+  "dataset_name": "synthetic_journals",
+  "evaluation_date": "2025-09-07T17:11:37.398626",
+  "metrics": {
+    "model_name": "voxtral",
+    "model_version": "mini-3b-2507",
+    "word_error_rate": 0.45588235294117646,
+    "character_error_rate": 0.22754075615678113,
+    "exact_match_accuracy": 0.0,
+    "avg_confidence_score": null,
+    "avg_processing_time": 9.77580451965332,
+    "total_samples": 2
+  },
+  "individual_results": [
+    {
+      "sample_id": "journal_000",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
+      "model_name": "voxtral",
+      "model_version": "mini-3b-2507",
+      "transcription": "En 52-årige kvinde med nydiagnosticeret diffus storcelle B-celllymfom, verificeret ved biopsi af cervikal lymfeknuder, henvises til stagingundersøgelse forud for kemoterapi. PET udført med 350 MBq F-18 FDG intravenøst, optagelse efter 60 minutter, kontrastforstærket CT. Her ses patologisk FDG-uptagelse i multiple lymfeknuderregioner. Cervikal bilateral med største lymfeknude på højersiden med målene 3,2 x 2,1 cm, SUV max 12,4. I mediastinum ses patologisk øget lymfeknuder i øvre og nedre paratracheal region. Største mål er 2,8 x 1,9 cm, SUV max 10,2. Bilaterale axillære lymfeknuder højersidige op til 2,4 x 1,8 cm, SUV max 9,8. Retroperitonealt multiple lymfeknudeconglomerater langs aorta og vena cava. Største mål er 4,1 x 3,2 cm, SUV max 14,6. Mesenteriale lymfeknuder med en moderat optagelse, SUV max 7,3. Mildt viser diffus øget optagelse for en lignende med lymfoom infiltreret, SUV max 8,9, længde 14 cm. Fokal øget optagelse i corpus vertebrae, TH11 og L3, SUV max henholdsvis 9,2 og 8,7, suspekt for osseøs involvering. Ingen patologisk optagelse i lever, lunger eller øvrige organer. Konklusion er dissemineret lymfomsygdom med involvering supra- og infradiaphragmatisk, mildt infiltreret samt osseøse metastaser. Lugano stadium 4, metabolisk tumorvolumen 342 ml, Duvel score 5.",
+      "confidence_score": null,
+      "processing_time_seconds": 11.260519027709961,
+      "timestamp": "2025-09-07T17:11:29.096686"
+    },
+    {
+      "sample_id": "journal_001",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
+      "model_name": "voxtral",
+      "model_version": "mini-3b-2507",
+      "transcription": "Here is the transcription of the speech file:\n\n\"68-årig mand indlagt på ambulance kl. 14:35 med akutte thorakale smerter, deporteret kl. 12:30 under havarbejde. Smerterne er trykende, retrostanalt lokaliserede med udstråling til venstre arm, ledsaget af dyspne, knælme og profus svettende. VAS 8 ud af 10. Kendt med hypertensiv behandling med Ramipril 5 mg dagligt, type 2 diabetes med senest HbA1c 52 mmol/mol, hyperlipidemi i behandling med Simvastatin 20 mg dagligt. Tidligere store ryger med 40 pakker år, opgør 2019, ingen tidligere kardiovaskulære tilfælde. Ved objektiv undersøgelse findes patienten vogen, klar og orienteret i tid og sted og egne data, men bleig og klampet svævende. Blodtryk 165 over 95, puls 92 regelmæssig, saturation 94% på atmosfærisk luft, respirationsfrekvens 22 pr. minut, temperatur 36,8 grader. Hjertet har regelmæssig aktion uden mislydelse. På lungerne hører man vesikulær respiration, bilateralt med fine krepitationer basal. Abdomen er blød og uæmmet med normal tarmlyd. Ekstremiteter uden udmærker, normale PFA-puls. EKG viser ST-elevation 3-4 mm i V2-V5 med reciproke ST-depressioner i 2, 3 og AVF. Troponin 1 forhøjet til 0,85 mg/l, CK-MB 42 units/l, D-dimer 0,3 mg/l, kreatinin 98 mmol/l, EGFR 71, CRP 12 mg/l. Patienten har fået Morphin 5 mg intravenøst kl. 14:45, Asetylsalicylsyre 300 mg, Tia-Krigler 180 mg, Atorvastatin",
+      "confidence_score": null,
+      "processing_time_seconds": 8.29109001159668,
+      "timestamp": "2025-09-07T17:11:37.395802"
+    }
+  ]
+}

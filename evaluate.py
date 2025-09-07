@@ -1,8 +1,6 @@
 """ASR model evaluation script."""
 
-import time
 from datetime import datetime
-from pathlib import Path
 from typing import List
 import jiwer
 import string

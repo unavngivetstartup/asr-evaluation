@@ -76,6 +76,8 @@ class MockModel(ASRModel):
     def transcribe(self, audio_file: str) -> Tuple[str, Optional[float], float]:
         """Mock transcription with configurable delay."""
         time.sleep(self.delay)
+        # Use audio_file parameter to avoid warning
+        _ = audio_file
         return "placeholder transcription", 0.95, self.delay
 
 class HviskeV2Model(ASRModel):
@@ -156,6 +158,124 @@ class HviskeV2Model(ASRModel):
             raise RuntimeError(f"Hviske-v2 transcription failed: {e}")
 
 
+class VoxtralModel(ASRModel):
+    """Mistral Voxtral multimodal ASR model implementation."""
+    
+    def __init__(self, model_size: str = "mini"):
+        if model_size == "mini":
+            version = "mini-3b-2507"
+            self.repo_id = "mistralai/Voxtral-Mini-3B-2507"
+        elif model_size == "small":
+            version = "small-24b-2507"
+            self.repo_id = "mistralai/Voxtral-Small-24B-2507"
+        else:
+            raise ValueError(f"Unknown Voxtral model size: {model_size}. Available: 'mini', 'small'")
+            
+        super().__init__("voxtral", version)
+        self._model = None
+        self._processor = None
+        self.model_size = model_size
+    
+    def _load_model(self):
+        """Lazy load the Voxtral model."""
+        if self._model is None:
+                import torch
+                from transformers import VoxtralForConditionalGeneration, AutoProcessor, infer_device
+                
+                device = infer_device()
+                
+                # Load processor and model using default cache
+                self._processor = AutoProcessor.from_pretrained(self.repo_id)
+                self._model = VoxtralForConditionalGeneration.from_pretrained(
+                    self.repo_id, 
+                    dtype=torch.bfloat16, 
+                    device_map=device
+                )
+                
+                self.device = device
+
+    
+    def _convert_to_wav(self, audio_file: str) -> str:
+        """Convert audio file to WAV format if needed."""
+        import tempfile
+        
+        # If already WAV, return as is
+        if audio_file.lower().endswith('.wav'):
+            return audio_file
+            
+        try:
+            import librosa
+            import soundfile as sf
+            
+            # Create temporary WAV file
+            temp_wav = tempfile.NamedTemporaryFile(suffix='.wav', delete=False)
+            temp_wav_path = temp_wav.name
+            temp_wav.close()
+            
+            # Load and convert audio
+            audio_array, sr = librosa.load(audio_file, sr=None)
+            sf.write(temp_wav_path, audio_array, sr)
+            
+            return temp_wav_path
+            
+        except ImportError:
+            raise ImportError("librosa and soundfile are required for audio conversion. "
+                            "Install with: pip install librosa soundfile")
+    
+    def transcribe(self, audio_file: str) -> Tuple[str, Optional[float], float]:
+        """Transcribe audio using Voxtral."""
+        self._load_model()
+        
+        start_time = time.time()
+        
+        try:
+            import torch
+            import os
+            
+            # Convert to WAV if needed
+            wav_file = self._convert_to_wav(audio_file)
+            temp_created = wav_file != audio_file
+            
+            try:
+                # Create conversation format expected by Voxtral
+                conversation = [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "audio",
+                                "url": wav_file,
+                            },
+                            {"type": "text", "text": "You are an helpful AI assistant tasked with transcribing a speech file in Danish from a medical recording."},
+                        ],
+                    }
+                ]
+                
+                # Process with the model
+                inputs = self._processor.apply_chat_template(conversation)
+                inputs = inputs.to(self.device, dtype=torch.bfloat16)
+                
+                # Generate transcription
+                outputs = self._model.generate(**inputs, max_new_tokens=500)
+                decoded_outputs = self._processor.batch_decode(
+                    outputs[:, inputs.input_ids.shape[1]:], 
+                    skip_special_tokens=True
+                )
+                
+                transcription = decoded_outputs[0].strip()
+                processing_time = time.time() - start_time
+                
+                return transcription, None, processing_time
+                
+            finally:
+                # Clean up temporary WAV file if created
+                if temp_created and os.path.exists(wav_file):
+                    os.remove(wav_file)
+                    
+        except Exception as e:
+            raise RuntimeError(f"Voxtral transcription failed: {e}")
+
+
 # Model registry for easy access
 MODEL_REGISTRY = {
     "whisper-tiny": lambda: WhisperModel("tiny"),
@@ -169,6 +289,9 @@ MODEL_REGISTRY = {
     "mock": lambda: MockModel(),
     # Danish-specific models
     "hviske-v2": lambda: HviskeV2Model(),
+    # Voxtral models
+    "voxtral-mini": lambda: VoxtralModel("mini"),
+    "voxtral-small": lambda: VoxtralModel("small"),
 }
 
 def get_model(model_id: str) -> ASRModel:
