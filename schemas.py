@@ -76,13 +76,13 @@ class ModelEvaluationReport:
             'individual_results': [result.to_dict() for result in self.individual_results]
         }
         
-        with open(filepath, 'w') as f:
-            json.dump(report_data, f, indent=2)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(report_data, f, indent=2, ensure_ascii=False)
     
     @classmethod
     def load_from_json(cls, filepath: str) -> 'ModelEvaluationReport':
         """Load report from JSON file."""
-        with open(filepath, 'r') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
         metrics = EvaluationMetrics(**data['metrics'])

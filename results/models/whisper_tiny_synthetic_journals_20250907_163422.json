@@ -1,0 +1,38 @@
+{
+  "model_name": "whisper",
+  "model_version": "tiny",
+  "dataset_name": "synthetic_journals",
+  "evaluation_date": "2025-09-07T16:34:22.700227",
+  "metrics": {
+    "model_name": "whisper",
+    "model_version": "tiny",
+    "word_error_rate": 1.375,
+    "character_error_rate": 0.8012486992715921,
+    "exact_match_accuracy": 0.0,
+    "avg_confidence_score": null,
+    "avg_processing_time": 3.456078886985779,
+    "total_samples": 2
+  },
+  "individual_results": [
+    {
+      "sample_id": "journal_000",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
+      "model_name": "whisper",
+      "model_version": "tiny",
+      "transcription": "Toren træser at ikke fennem, men nyt i agnastisere de fuksst, står sødner du bæt selv af lukkfung bæt selv, vi bliver psy i at servikele lukkne ud at hende i stedningerne selv til forholden på chemotap. Petitik udført med trængende en slas medgebeggere al af at af den FTG-intervenøs, og optænds efter træs minutter, kan træsves der af at gå se til. Der ser i spatolog, at ikke af til at se, vil lukkne ud at regge ona. Serbykæld, vil at at arbejde, med størsind lukkne ud på højerslødmålene, er trækende med 2 ganget 2, kan af 1 centimeter. Der ser vi max, tolkne at tier. I med de afsiden om, at de skal ud, vil lukkne ud at i over andre par trækkele regge on, størsdomål og 2, kan være ud af ganget indkommunisent meter. Serbykæld, vil at nækste tikende at tukkele regge ona. Rætt så par tonal, måltid, vil lukkne udkunder med regge ona. Lætt så par tonal, måltid, vil lukkne udkunder med regge ona. Serbykæld, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at næk og at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil at nækste tikende, vil",
+      "confidence_score": null,
+      "processing_time_seconds": 3.467900514602661,
+      "timestamp": "2025-09-07T16:34:19.251239"
+    },
+    {
+      "sample_id": "journal_001",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
+      "model_name": "whisper",
+      "model_version": "tiny",
+      "transcription": "Hvordan så er man indpragnenen på landseklaget fjordet fra Natarbe med akkudet, toverkælde smerter, de på tænker ikke tørgte træde under her år. Smerterne og trækne prætståsternal lokalsierende udståling til Velster Arm, løsageret, at de spne kan være med og profus, sødcentens. BAS og det udtiden. Kennt med høber tensioner ud i behandling, hvad familie kredg til, milligræmt døret, til betroved i af bedet spesienst, hvor vi a. A. Et se tår hos hæst, millimole per mål, hypper de peddemy i behandlet med Symervastet team, hvad milligræmt døret. Tilligere storevrømne, hvad pagor ophør tårtelsen af niden, indtilligere kredjælde til Vel. Der opjektiv under synes af pændspacenten vønklar og oriental i tid og sted og aenne data, men blej og klant sødene. Blodtret 153 år, og 155. Pults 12, 15 fra elmæsning. Saturation 4,5% på etmospacet løft, respirationen, som kan være til at tage på minutter, 10 på 20,6 tadekomme og ritual. Jeg har vel med se actionen und misslede. På løgene hører sig vise i glære respiration, eller deralt med fine kredgit satien, kan jeg piteissioner af sæld. Og der blev et udmødmød, og udmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmødmød Hvordan fæmst med komolepældlider?",
+      "confidence_score": null,
+      "processing_time_seconds": 3.4442572593688965,
+      "timestamp": "2025-09-07T16:34:22.696437"
+    }
+  ]
+}

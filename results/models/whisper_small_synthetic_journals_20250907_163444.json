@@ -1,0 +1,38 @@
+{
+  "model_name": "whisper",
+  "model_version": "small",
+  "dataset_name": "synthetic_journals",
+  "evaluation_date": "2025-09-07T16:34:44.330161",
+  "metrics": {
+    "model_name": "whisper",
+    "model_version": "small",
+    "word_error_rate": 0.803921568627451,
+    "character_error_rate": 0.3891779396462019,
+    "exact_match_accuracy": 0.0,
+    "avg_confidence_score": null,
+    "avg_processing_time": 5.530535101890564,
+    "total_samples": 2
+  },
+  "individual_results": [
+    {
+      "sample_id": "journal_000",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
+      "model_name": "whisper",
+      "model_version": "small",
+      "transcription": "52-årig kvinde med nydiagnastiseret difust storser noget B- eller nyfongbergfiserede VB-OB-C af servikale lønfløknøder, henvies til staging-undersøgelsefoget på chemotherapi. PTT udførte med 360 MbqRF18 FDG intravenøst, optagelse efter 60 minutter, kontrastforstærket CT. Der ses patologisk FDG-optagelse i multiple lønfløknøde regioner. Servikale billederale med størst lønfløknøde på højere side målene 3,2 × 2,1 cm, SUV Max 12,4. I mediasien om ses patologisk øvede lønfløknøder i øver- og nødre-paratrakial region, største måler 2,8 × 1,9 cm, SUV Max 10,2. Billederale axilære lønfløknøder højere side i op til 2,4 × 1,8 cm, SUV Max 9,8. Retropaget tonalt multiple lønfløknøde konklimerater langs aerotra-ovinekaber, største måler 4,1 × 3,2 cm, SUV Max 14,6. Med centaeriale lønfløknøder med moderat optagelse, SUV Max 7,3. Mildtenvis af diffust øvede optagelse for egentlig med lønflønfløn infiltrat, SUV Max 8,9, længde 14 cm. Fokalt øvede optagelse i krophus hverdebrat TH-11 og L-3, SUV Max henholdvis 9,2 og 8,7, suspect for åsøjse involvering. Ingen patologisk optagelse i lever, lunge eller øvrige organer. Konklusion af disemineret lønflønsyndom med involvering supra og infra via fravmalet mildtinfiltration samt råsøse metastaser. Logano Stadium 4, metabolisk tumorvolumen 342 ml, du vil skoere 5.",
+      "confidence_score": null,
+      "processing_time_seconds": 4.78430700302124,
+      "timestamp": "2025-09-07T16:34:38.049505"
+    },
+    {
+      "sample_id": "journal_001",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
+      "model_name": "whisper",
+      "model_version": "small",
+      "transcription": "88. er i mand indprækende ambulanset kl. 14.35 med akutte toarkale smerter, debutteret kl. 12.30 under haverarbejde. Smerterne af tryggende retrosdanalt lokaliserende udstråling til velstre arm, ledseret af dyspne, kvallme og profus svedtendens. BAS 8 ud af 10. Kænt med hypotension i behandlingen med RAM i pril, T-mg dagligt, type 2 diabetes med senest HBAI, A1C-52, millimol per mol, hypolipedamie i behandlet med simavastatin, 40 mg dagligt. Tidligere storrymme før pakkerår opphør 2019, ingen tidligere kardielle tilfælde. Ved objektiv undersøgelse findes patienten vågen klar og orienteret i tid og sted og egne data, men blei og klamp svedmer. Blodtryk 165 over 95, puls 92, rælemæssig, saturation 54% på atmosfærisk luft, respirationstrikvens 22 per minut, temperatur 36,8 grader, hjertet har rælemæssig aktion uden mislede, på lungerne høres vesikulære respiration billetteralt med fine krabitatian, krab, pitationer basalt. Abdommen er blødt og uemt med normale tarmviden, ekstremitater uden ydemer, normale perfærdpulisse. EKG viser ST elevation 3-4 mm i V2-V5, med restripokke ST depressioner i 2,3-8F. Tropin 1 forhåret til 0,45 microgram per liter, CKMB 42 units per liter, D-dimer 0,3 mg per liter, creatinin 98 micro mole per liter, EGFÆR 1,5 CRP 12 mg per liter. Patienten har fået morphine 5 mg intravenøst klocken 14.45, acetyl salicyl syger 300 mg, tiak krikloa 140 mg, atorvastatin 40 mg samt heparin 5.000 unheder som bolus. Diagnosen er kudt, steamy, anteriordet efter konferensen med vagtævner Kaldiolo, akcepteret til primære PCI, overflyttet til hjertesændret klocken 150. Fjernes kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i kvinder i k",
+      "confidence_score": null,
+      "processing_time_seconds": 6.276763200759888,
+      "timestamp": "2025-09-07T16:34:44.327216"
+    }
+  ]
+}

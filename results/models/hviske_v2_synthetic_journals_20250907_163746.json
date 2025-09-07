@@ -1,0 +1,38 @@
+{
+  "model_name": "hviske",
+  "model_version": "v2",
+  "dataset_name": "synthetic_journals",
+  "evaluation_date": "2025-09-07T16:37:46.350770",
+  "metrics": {
+    "model_name": "hviske",
+    "model_version": "v2",
+    "word_error_rate": 0.7426470588235294,
+    "character_error_rate": 0.413111342351717,
+    "exact_match_accuracy": 0.0,
+    "avg_confidence_score": null,
+    "avg_processing_time": 19.688336968421936,
+    "total_samples": 2
+  },
+  "individual_results": [
+    {
+      "sample_id": "journal_000",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
+      "model_name": "hviske",
+      "model_version": "v2",
+      "transcription": "en 52 årig kvinde med nydiagnosticeret diffust storcellet b cellelymfom verificeret ved biopsi af cervikale lymfeknuder henvist til stagingundersøgelse forud på kemoterapi ptt udført med 350 mbq f18 fdg intravenøst optagelse efter 60 minutter kontrastforstærket ct der ses patologisk fdg optagelse i multiple lymfeknuderegioner cervikal bilateralt med største lymfeknude på højre side murreti mediastinum ses patologisk øgede lymfeknuder i øvre og nødre paratrachealregion største mål er 2,8 x 1,9 cm suv max 10,2 bilaterale axillære lymfeknuder højresøde i op til 2,4 x 1,8 cm suv max 9,8metropteritonalt multiple lymfeknudekonglomerater langs aorta og vena cava største måler 4,1 x 3,2 cm suv max 14,6mesenteriale lymfeknuder med en moderat optagelse suv max 7,3 miltenviser difust øget optagelse forening med lymfome infiltrat suv max 8,9 længde 14 cm fokalt øget optagelse i corpus vertebra th11 og th12suvmax henholdvis 9,2 og 8,7 suspekt for oesøsenvolvering ingen patologisk optagelse i lever og lunge eller øvrige organerkonklusion er dissemineret lymfonsygdom med involvering supra og infradiafragmalt miltinfiltration samt oesøse metastaserlogano stadium 4 metabolisk tumorvolumen 342 ml duvill score 5kommunikation med landbruget og landkommunikation med landkommunikation med landkommunikation",
+      "confidence_score": null,
+      "processing_time_seconds": 16.309017658233643,
+      "timestamp": "2025-09-07T16:37:23.279282"
+    },
+    {
+      "sample_id": "journal_001",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
+      "model_name": "hviske",
+      "model_version": "v2",
+      "transcription": "68 år i mand indbragte med ambulance klokken 1435 med akutte thorakale smerter deporteret klokken 1230 under havearbejde smerterne er trykkende retrostanalt lokaliseret med udstråling til venstre arm ledsaget af dyspnoe knvalme og profus svedtendens vas 8 ud af 10 kendt med hypertension i behandling med ramipril 10 mg dagligt type 2 diabetes med senest hba1ca1c52mmol per mol hyperlipidamin i behandlet med simavastatin 40mg dagligttidligere storryger med 40 pakkeår ophørt 2019 ingen tidligere cardielle tilfældeved objektiv undersøgelse findes patienten vågen klar og orienteret i tid og sted og egne data men bleg og klamtsvedendeblodtryk 165 over 95 puls 92 regelmæssig saturation 94 procent på atmosfærisk luft respirationsfrekvens 22 per minut temperatur 36,8 grader hjertet har regelmæssig aktion uden mislede på lungerne hører vesikulær respiration bilateralt med fine krepitationer basaltabdommen er blødt og uæmt med normal tarmvidde ekstremiteter uden ødemer normale perifere pulser ekg viser st elevation 3 til 4 mm i v2 til v5 med reciprokke st depressioner i iiii og abf troponin 1 forhøjet til 0,85 mikrogram per liter ck mb 42 units per liter ddimet 0,3 milligram per liter creatinin 1 til 0,001 mikrogram per liter ck mb 42 units per liter deimet 0,3 milligram per liter creatinin 1 til 0,001 mikrogram per liter ck mb 42 units per liter deimet 0,3 milligram per liter ck mb 42 units per liter deimet 0,3 milligram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per liter creatinin 1 til 0,001 mikrogram per litter ck mb 42 units per litter ck mb 42 units per litter ddymmet 0 0 0 0 3 milligram per litter creatin 1 til 0 ck mb98 mikromol per liter egfr71 cap 12 mg per liter patienten har fået morfin 5 mg intravenøst klokken 1445 acetylsalicylsyre 300 mg thiacreglor 180 mg atorvastatin 80 mg samt heparin 5000 enheder som bolus diagnosen er akut stemmig anterogort efter konference med vagtløseså kan hun af kardiolog accepteret til primær psi overflyttet til hjertecenteret klokken 15",
+      "confidence_score": null,
+      "processing_time_seconds": 23.06765627861023,
+      "timestamp": "2025-09-07T16:37:46.348557"
+    }
+  ]
+}

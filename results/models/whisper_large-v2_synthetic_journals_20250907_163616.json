@@ -1,0 +1,38 @@
+{
+  "model_name": "whisper",
+  "model_version": "large-v2",
+  "dataset_name": "synthetic_journals",
+  "evaluation_date": "2025-09-07T16:36:16.666567",
+  "metrics": {
+    "model_name": "whisper",
+    "model_version": "large-v2",
+    "word_error_rate": 0.3553921568627451,
+    "character_error_rate": 0.11272979535206382,
+    "exact_match_accuracy": 0.0,
+    "avg_confidence_score": null,
+    "avg_processing_time": 10.128744721412659,
+    "total_samples": 2
+  },
+  "individual_results": [
+    {
+      "sample_id": "journal_000",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
+      "model_name": "whisper",
+      "model_version": "large-v2",
+      "transcription": "52-årig kvinde med nydiagnosticeret diffust storsættet B-cellulifon verificeret ved biopsi af cervicale lymfeknødder henvist til stagingundersøgelseforhåget på kemoterapi. PTT udført med 350mb F18 FDG intravenøst. Optagelse efter 60 minutter. Kontrastforstærket CT. Der ses patologisk FDG optagelse i multiple lymfeknødregioner. Cervical bilateral med største lymfeknødde på højre side målene 3,2 x 2,1 cm. SUV max 12,4. I mediasinom ses patologisk øget lymfeknødder i øvre og nødre paratrakialregion. Største måler 2,8 x 1,9 cm. SUV max 10,2. Bilaterale aksillære lymfeknødder højre side i op til 2,4 x 1,8 cm. SUV max 9,8. Retroparetionalt multiple lymfeknødde konglomerater langs aorta og venakabe. Største måler 4,1 x 3,2 cm. SUV max 14,6. Mesenteriale lymfeknødder med en moderat optagelse. SUV max 7,3. Mildten viser diffust øget optagelse forenligt med lymfoen infiltrat. SUV max 8,9 længde 14 cm. Fokalt øget optagelse i korpus hvertebra, TH11 og L3. SUV max henholdvis 9,2 og 8,7 suspekt for åsøs involvering. Ingen patologisk optagelse i lever, lunge eller øvrige organer. Konklusion af dissemineret lymfomsyndøm med involvering supra- og infra-diafragmalt mildt infiltration samt åsøse metastaser. Logano Stadium 4, metabolisk tumorvolumen 342 ml, duvinskor 5.",
+      "confidence_score": null,
+      "processing_time_seconds": 9.492292881011963,
+      "timestamp": "2025-09-07T16:36:05.898392"
+    },
+    {
+      "sample_id": "journal_001",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
+      "model_name": "whisper",
+      "model_version": "large-v2",
+      "transcription": "68-årige mand indpragtende ambulance kl. 14.35 med akutte, torakale smerter debuterede kl. 12.30 under havearbejde. Smerterne er tryggene, retrostanalt lokaliseret med udstråling til vælstre arm, ledsaget af dyspneø, knvalme og profus svedtendens. VAS 8 ud af 10. Kendt med hypertension i behandling med ramipril T mg dagligt, type 2 diabetes med senest HbA1. A1c 52 mmol per mol. Hyperlipidemi i behandling med simavastatin 40 mg dagligt. Tidligere store ryger med før pakkeår ophørt 2019, ingen tidligere kardielle tilfælde. Ved objektiv undersøgelse findes patienten vågen, klar og orienteret i tid og sted og egne data, men bleg og klamt svedende. Blodtryk 165 over 95. Puls 92 regelmæssigt. Saturation 94% på atmosfærisk luft. Respiration frekvens 22 per min. Temperatur 36,8 grader. Hjertet har regelmæssig aktion uden mislede. Lungene høres vesikulær respiration bilateralt med fine krepitationer basalt. Abdomen er blødt og uemt med normal tarmelyd. Ekstremiteter uden edemer, normale pfr-pulse. EKG viser ST-elevation 3-4 mm i V2-V5 med reciproke ST-depressioner i 2, 3 og AVF. Troponin 1 for højde til 0,85 mikrogram per liter. CK-MB 42 units per liter. D-dimer NO 0,3 milligram per liter. Kreatinin 98 mikromål per liter. EGFR 71. CRP 12 milligram per liter. Patienten har fået morfin 5 milligram intravenøst kl. 14.45. Acetylsalicylsyrer 300 milligram. Tiagreglor 180 milligram. Atorvastatin 80 milligram samt Heparin 5000 enheder som bolus. Diagnosen er akut, stemig, anteriort efter konferencer med Vagtkævene Kardiolog. Akcepteret til primære PCI. Overflyttet til Hjertecentret kl. 15.05.",
+      "confidence_score": null,
+      "processing_time_seconds": 10.765196561813354,
+      "timestamp": "2025-09-07T16:36:16.664337"
+    }
+  ]
+}

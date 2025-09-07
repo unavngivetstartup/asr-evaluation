@@ -1,0 +1,38 @@
+{
+  "model_name": "whisper",
+  "model_version": "large-v3",
+  "dataset_name": "synthetic_journals",
+  "evaluation_date": "2025-09-07T16:36:42.936369",
+  "metrics": {
+    "model_name": "whisper",
+    "model_version": "large-v3",
+    "word_error_rate": 0.35294117647058826,
+    "character_error_rate": 0.12209503988900451,
+    "exact_match_accuracy": 0.0,
+    "avg_confidence_score": null,
+    "avg_processing_time": 7.371790766716003,
+    "total_samples": 2
+  },
+  "individual_results": [
+    {
+      "sample_id": "journal_000",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
+      "model_name": "whisper",
+      "model_version": "large-v3",
+      "transcription": "52-årige kvinde med nydiagnostiseret diffust storesælget B-cellelymfom verificeret ved biopsi af cervikale lymfeknøder henvist til stagingundersøgelse forud på kemoterapi. PTT udført med 350 MB F18 FDG intravenøst optagelse efter 60 minutter, kontrastforstærket CT. Der ses patologisk FDG optagelse i multiple lymfeknøderegioner. Cervical bilateral med største lymfeknøde på højre side målene 3,2 x 2,1 cm, SUV max 12,4 cm. I mediastinum ses patologisk øget lymfeknøder i øvre og nødre paratrachealregion. Største måler 2,8 x 1,9 cm, SUV max 10,2 cm. Bilaterale axillære lymfeknøder højre side i op til 2,4 x 1,8 cm, SUV max 9,8 cm. Retroparietonal multiple lymfeknødekonglomerater langs aorta og venakava. Største måler 4,1 x 3,2 cm, SUV max 14,6 cm. Mesenteriale lymfeknøder med moderat optagelse, SUV max 7,3 cm. Mildenviser diffust øget optagelse forenlig med lymfom infiltrat, SUV max 8,9 cm. Længde 14 cm. Fokalt øget optagelse i korpus vertebra, TH11. L3, SUV max henholdvis 9,2 og 8,7 cm. Suspekt for osøs involvering. Ingen patologisk optagelse i lever, lunge eller øvrige organer. Konklusion er dissemineret lymfomsygdom med involvering supra og infra diafragmalt, mild infiltration samt osøse metastaser. Lugano stadium 4. Metabolisk tumorvolumen 342 ml. Du vil score. Du vil score.",
+      "confidence_score": null,
+      "processing_time_seconds": 7.034660816192627,
+      "timestamp": "2025-09-07T16:36:35.225302"
+    },
+    {
+      "sample_id": "journal_001",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
+      "model_name": "whisper",
+      "model_version": "large-v3",
+      "transcription": "68-årig mand indpragt med ambulance kl. 14.35 med akutte toarkale smerter, deporteret kl. 12.30 under havearbejde. Smerterne er trykkende, retrosdanalt, lokaliseret med udstråling til vælstre arm, ledsaget af dyspnø, knvalme og profus svedtendens. VAS 8 ud af 10. Kendt med hypertension i behandling med ramipril T milligram dagligt, type 2 diabetes med senest HB-A1C 52 mmol per mol. Hyperlipidemi i behandlet med simavastatin 40 mg dagligt. Tidligere storryger med 40 pakkeår ophørt 2019, ingen tidligere kardiale tilfælde. Ved objektiv undersøgelse findes patienten vågen klar. Og orienteret i tid og sted og egne data, men bleg og klamt svedende. Blodtryk 165 over 95. Puls 92 regelmæssigt. Saturation 94% på atmosfærisk luft. Respirationsfrekvens 22 per minut. Temperatur 36,8 grader. Hjertet har regelmæssig aktion uden mislede. På lungerne høres vesikulær respiration bilateralt med fine krepitationer. Abdomen er blød og uæmt med normal tarmviden. Ekstremiteter uden ydemer. Normale PFR-pulse. EKG viser ST-elevation 3-4 mm i V2-V5 med reciprokke ST-depressioner i 2-3 og AVF. Troponin 1 forhøjet til 0,85 mikrogram per liter. CK-MB 42 units per liter. D-dimer 0,3 mg per liter. Kreatinin 98 mikromol per liter. EGFR 71. CRP 12 mg per liter. Patienten har fået morfin 5 mg intravenøst kl. 14.45. Acetyl salicyl syre 300 mg. Tiag kriglor 180 mg. Atorvastatin 80 mg. Heparin 5000 enheder som bolus. Diagnosen er akut stemig antagerjort. Altså konference med bakhaven af kardiolog. Accepteret til primær PCI. Overflyttet til hjertecentret kl. 15.05.",
+      "confidence_score": null,
+      "processing_time_seconds": 7.70892071723938,
+      "timestamp": "2025-09-07T16:36:42.934816"
+    }
+  ]
+}

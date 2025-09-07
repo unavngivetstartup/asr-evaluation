@@ -1,15 +1,15 @@
 {
-  "model_name": "whisper",
-  "model_version": "base",
+  "model_name": "mock",
+  "model_version": "v1",
   "dataset_name": "synthetic_journals",
-  "evaluation_date": "2025-09-07T14:29:22.526478",
+  "evaluation_date": "2025-09-07T16:36:53.789232",
   "metrics": {
-    "model_name": "whisper",
-    "model_version": "base",
+    "model_name": "mock",
+    "model_version": "v1",
     "word_error_rate": 1.0,
-    "character_error_rate": 0.9832887700534759,
+    "character_error_rate": 0.9826569545612209,
     "exact_match_accuracy": 0.0,
-    "avg_confidence_score": null,
+    "avg_confidence_score": 0.95,
     "avg_processing_time": 1.0,
     "total_samples": 2
   },
@@ -17,22 +17,22 @@
     {
       "sample_id": "journal_000",
       "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
-      "model_name": "whisper",
-      "model_version": "base",
+      "model_name": "mock",
+      "model_version": "v1",
       "transcription": "placeholder transcription",
-      "confidence_score": null,
+      "confidence_score": 0.95,
       "processing_time_seconds": 1.0,
-      "timestamp": "2025-09-07T14:29:22.515510"
+      "timestamp": "2025-09-07T16:36:52.785262"
     },
     {
       "sample_id": "journal_001",
       "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
-      "model_name": "whisper",
-      "model_version": "base",
+      "model_name": "mock",
+      "model_version": "v1",
       "transcription": "placeholder transcription",
-      "confidence_score": null,
+      "confidence_score": 0.95,
       "processing_time_seconds": 1.0,
-      "timestamp": "2025-09-07T14:29:22.515894"
+      "timestamp": "2025-09-07T16:36:53.786065"
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "model_name": "whisper",
+  "model_version": "base",
+  "dataset_name": "synthetic_journals",
+  "evaluation_date": "2025-09-07T16:34:30.544469",
+  "metrics": {
+    "model_name": "whisper",
+    "model_version": "base",
+    "word_error_rate": 0.8455882352941176,
+    "character_error_rate": 0.3846687478321193,
+    "exact_match_accuracy": 0.0,
+    "avg_confidence_score": null,
+    "avg_processing_time": 3.4770671129226685,
+    "total_samples": 2
+  },
+  "individual_results": [
+    {
+      "sample_id": "journal_000",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
+      "model_name": "whisper",
+      "model_version": "base",
+      "transcription": "Torel 30 og Ikfinema er en ny diagnostisere diffuset storsanhed B, sælger Lyfung Bav, Særdepie-Apsie og servikalet Lyfekneder. Henvies til stedningerne syvligste forhold på KMOT-appie. PTT udført med 303 Mbg fra FHDG inser den øst, optagelse efter 30 minutter kontrast forstærket CT. Der ser i patologisk FHDG-optal til et målssive blevet Lyfeknede regioner. Servikal, billeder der alt med størst Lyfeknede på højersød med 3,2 gange 2,1 cm, SUV Max 12,4. I meddiersen om se, patologisk øget Lyfekneder i øver og nødere parter, trakial region, størst de måler 2,8 gange 1,1 cm, SUV Max 10,2. Billeder der alt, eksilier Lyfekneder højersød i 2,4 gange 1,8 cm, SUV Max 9,8. Retropa i tonalt, muligivle Lyfeknede konklummerater, langs er råter og vine kæve. Størst de måler 4,1 gange 3,2 cm, SUV Max 14,6. Mestcentariale Lyfekneder med modderat-optelse SUV Max 7,3. Mildt en viser de fuldst øget-optelse for enlig med Lyfform, infiltrat SUV Max 8,9 længede 14 cm, forkalt øget-optels i korvus hvertebra, T-H11 og L3 SUV Max 10,2. 8,7 cm, suspect for osøs en målvægning. Ingen patologisk optels i leverlunger eller uge i og gange. Conclusion af disseminerede Lyfform 7,1. Nåd en målvægning, super og indfra, via frommalt, mildt infant-filtration, sandprosøse, metastaser. Loggande Stadium 4, metabolisk 2,324 ml, du vil skole 5.",
+      "confidence_score": null,
+      "processing_time_seconds": 2.6986801624298096,
+      "timestamp": "2025-09-07T16:34:26.285201"
+    },
+    {
+      "sample_id": "journal_001",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
+      "model_name": "whisper",
+      "model_version": "base",
+      "transcription": "8. tager en mand indprækende ambulanser klok 14,530 med akute toverkale smærtter, de buter klokkent 12,30 under heroverarbejde. Smærtterne af tryggene retroestanal lokaleriserende udstålling til Velstra Arme, ledes af at dysbnek, kændvalme og profus svedtendens, BAS 8.10. Kændt med hybertension i det herhændling med at formige præl 10 miligramm daveligt 22 diabetes-messens på BAE. A.C. 22. mm. per mål hyperlige pedamine i behandlet med sima vester 10,5 miligramm daveligt. Tidligere store rygerne før pækkerere ophør 2019 en tidligere kardielle tilfælde. Høj objektiv undersøgelse fint specienten våen klar og orienteret i tid og sted og einde data, men blevet og klamptsvedner. Blod 335 år 55, Puls turl 55-saturation 4,5 % på atmosfæres gløft, respektionsrequenz tur 20 per minute, temperatur 36,8 krad, hjertet har valgmæssige action uden mislede. På lungerne hører også viss i kolaere respektivation, biler der alt med finne kravitaktier, kravpitationer berselt. Abdomen er blødt og uæmd med normalt tarnvide, extremiteter uden ydema, normale peri-værpulisere. EKG viser ST-elevation 3,4 mm i V2-V5, med resiproker ST-depressioner i 2,3 og AVF. Tupenien 1,5 til 0,5 4 smikogramm per litre, CQ-MV2 og 4 units per litre, D-dime 0,3 mg krad, 8,5 mk. per litre, E-GF-1,5, CAP-12 mg per litre. Patienten har fået morfine 5 mg intervenøst, kl. 14,5 mf, altså tyld, salisøjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+      "confidence_score": null,
+      "processing_time_seconds": 4.255454063415527,
+      "timestamp": "2025-09-07T16:34:30.541665"
+    }
+  ]
+}
