@@ -1,0 +1,38 @@
+{
+  "model_name": "whisper",
+  "model_version": "base",
+  "dataset_name": "synthetic_journals",
+  "evaluation_date": "2025-09-07T14:29:22.526478",
+  "metrics": {
+    "model_name": "whisper",
+    "model_version": "base",
+    "word_error_rate": 1.0,
+    "character_error_rate": 0.9832887700534759,
+    "exact_match_accuracy": 0.0,
+    "avg_confidence_score": null,
+    "avg_processing_time": 1.0,
+    "total_samples": 2
+  },
+  "individual_results": [
+    {
+      "sample_id": "journal_000",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_000.m4a",
+      "model_name": "whisper",
+      "model_version": "base",
+      "transcription": "placeholder transcription",
+      "confidence_score": null,
+      "processing_time_seconds": 1.0,
+      "timestamp": "2025-09-07T14:29:22.515510"
+    },
+    {
+      "sample_id": "journal_001",
+      "audio_file": "/homes/hinge/Projects/data-samples/data/synthetic_journals/journal_001.m4a",
+      "model_name": "whisper",
+      "model_version": "base",
+      "transcription": "placeholder transcription",
+      "confidence_score": null,
+      "processing_time_seconds": 1.0,
+      "timestamp": "2025-09-07T14:29:22.515894"
+    }
+  ]
+}
